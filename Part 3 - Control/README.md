@@ -1,5 +1,5 @@
 # PART 3: Control
-### Exercise 3.1?
+### Exercise 3.1
 Using the non-linear model of Exercise 2.1 (or 2.2), close a feedback control loop to control
 the attitude, to allow setting roll, pitch, yaw and altitude references. Choose the gains of
 the PID by tuning on the linearized system, by minimizing the settling time while ensuring
