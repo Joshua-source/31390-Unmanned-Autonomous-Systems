@@ -6,13 +6,13 @@ the PID by tuning on the linearized system, by minimizing the settling time whil
 that the controlled system is critically damped (no overshoot), and plot the step response
 for a step of:
 
-• 1. Θ? = [10, 0, 0]T[deg], z? = 0[m]
+• 1. Θ* = [10, 0, 0]T[deg], z* = 0[m]
 
-• 2. Θ? = [0, 10, 0]T[deg], z? = 0[m]
+• 2. Θ* = [0, 10, 0]T[deg], z* = 0[m]
 
-• 3. Θ? = [0, 0, 10]T[deg], z? = 0[m]
+• 3. Θ* = [0, 0, 10]T[deg], z* = 0[m]
 
-• 4. Θ? = [0, 0, 0]T[deg], z? = 1[m].
+• 4. Θ* = [0, 0, 0]T[deg], z* = 1[m].
 
 Show your results and explain them.
 ### Exercise 3.2
