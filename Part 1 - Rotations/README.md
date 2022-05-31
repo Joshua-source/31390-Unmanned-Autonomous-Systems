@@ -5,7 +5,7 @@ Find the rotation matrix corresponding to the set of Euler angles ZXZ. Describe 
 Discuss the inverse solution for the Euler angles ZYZ in case sθ = 0.
 ### Exercise 1.3
 Discuss the inverse solution for Roll-Pitch-Yaw angles in the case cθ = 0.
-### Exercise 1.4?
+### Exercise 1.4
 Given a pair of unit vectors v and w (v =from and w =to, find the minimal rotation that
 brings v in w.
 (SUGGESTION: use your knowledge on axis-angle representation)
