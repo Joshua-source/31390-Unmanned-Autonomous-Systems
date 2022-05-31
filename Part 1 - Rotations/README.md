@@ -1,5 +1,8 @@
 #PART 1: Rotations
+
+
 ###Exercise 1.1
+
 Find the rotation matrix corresponding to the set of Euler angles ZXZ. Describe the procedure used to find the solution.
 ###Exercise 1.2
 Discuss the inverse solution for the Euler angles ZYZ in case sθ = 0.
