@@ -35,7 +35,7 @@ clc
 % route_new= [route(:,1)-1, route(:,2)-1, ones(size(route_part4,1),1)];
 % route=route_new;
 route_new =     [0     0;
-     1     0;
+     9     0;
      2     0;
      3     0;
      4     0;
@@ -58,8 +58,11 @@ route_new =     [0     0;
      5     6;
      5     5;
      4     5;
-     3     5]
-route= [route_new(:,1), route_new(:,2), ones(size(route_new,1),1)];
+     3     5];
+%route_new=greedy_3d(map)
+% route=route_new;
+route=[0,0,1;9,0,1;9,9,1];
+% route= [route_new(:,1), route_new(:,2), ones(size(route_new,1),1)];
 
 wall_color = [0.8 0.2 0.2];
 sample_time = 4e-2;
