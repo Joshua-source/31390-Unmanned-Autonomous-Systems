@@ -25,17 +25,15 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Initialization
-%close all
-%clear
-%clc
+% close all
+% clear
+% clc
 
 % Trajectory generation
-
 knots = [0 5];
 waypoints = cell(1,2);
 waypoints{1} = [0 ; 0 ; 1];
 waypoints{2} = [9 ; 9 ; 1];
-
 % Fix this...
 order = 7;
 corridors.times = [1 2  3 3.5 4];
