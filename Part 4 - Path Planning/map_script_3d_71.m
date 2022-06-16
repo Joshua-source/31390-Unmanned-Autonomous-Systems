@@ -9,7 +9,7 @@ clc
 load('wall.txt')
 % If a different named file is used, then write it into the wall variable
 % e.g. wall = maze_2;
-wall = maze_1_3D;
+wall = wall;
 
 % Define the map size
 max_x = wall(length(wall) - 2, 1);
@@ -35,8 +35,8 @@ map(end_(1), end_(2), end_(3)) = 0;
 
 
 %% Run the algorithm to optain the route
-%route = Astar_3d(map, start, end_);
-route = greedy_3d(map, start, end_);
+route = Astar_3d(map, start, end_);
+%route = greedy_3d(map, start, end_);
 timeit(@() greedy_3d(map, start, end_))
 
 %% Draw the map

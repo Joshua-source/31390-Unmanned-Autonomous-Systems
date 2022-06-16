@@ -18,16 +18,29 @@ for x = 1:max_x
     end
 end
 
+map = [0 0 0 0 0 0 0 0 0 0;
+       0 1 0 1 1 1 1 1 1 0;
+       1 1 0 1 1 0 0 0 1 0;
+       0 0 0 0 1 0 1 0 1 0;
+       0 1 1 0 0 0 1 0 0 0;
+       0 0 1 1 1 1 1 1 1 0;
+       1 0 0 0 1 0 0 0 1 0;
+       1 1 1 0 0 0 1 0 1 0;
+       1 1 1 1 1 1 1 0 1 0;
+       0 0 0 0 0 0 0 0 0 0];
+map = map';
+map = flip(map,2);
+
 % Define the starting and end position
 start = [1, 1];
-end_ = [10, 10];
+end_ = [4, 6];
 
 % Make sure the start and end is not an obstacle
-map(start(1),start(2)) = 0;
-map(end_(1),end_(2)) = 0;
+%map(start(1),start(2)) = 0;
+%map(end_(1),end_(2)) = 0;
 
 %% Run the algorithm to optain the route
-route = greedy_2d(map, start, end_);
+route = Astar_2d(map, start, end_);
 
 
 %% Draw the map
